@@ -3,8 +3,15 @@
 TweeVee is a lightweight HTML5+javascript engine for interactive videos. You can create a branching movie in the style of [Black Mirror: Bandersnatch](https://www.youtube.com/watch?v=VNw9DAwp2Kk) starting from Twee files exported from the popular hypertext editor Twine. The movies are meant to be played via browser.
 TweeVee is basically a single, easily customizable javascript file. It uses no external libraries except for jquery. 
 
-For a demonstration of TweeVee play Steven Spielberg's Director's Choices
-You can download the videos and Twee file of Steven Spielberg's Director's Choices here  
+For a demonstration of TweeVee play:
+
+[Steven Spielberg's Director's Choices](https://molleindustria.org/directorschoices/)
+
+[I'm Your Man](https://molleindustria.org/IMYOURMAN/)
+
+Some clips from Steven Spielberg's Director's Choices are included in this repository as example.
+
+![](https://molleindustria.org/directorschoices/tweeVeeSmall.gif)
 
 ## How to use TweeVee
 
