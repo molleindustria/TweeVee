@@ -1,0 +1,234 @@
+
+body {
+font-family: 'Open Sans', sans-serif;
+
+margin: 0px;
+padding: 0px;
+
+background: black;
+width: 100vw;
+height: 100vh;
+color: white;
+}
+
+
+
+/*colors here, layout below*/
+.passageLink, .inactiveLink {
+    text-decoration: none;
+    color: #000000;
+}
+
+.passageLink:hover, .passageLink.active {
+    background-color:#FFFFFF;
+}
+
+#bar {
+    background-color: #FF6D00;
+}
+
+#barBackground {
+    background-color: white;
+
+}
+
+#choicesContainer {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+#container {    
+    position: absolute;
+    margin: auto;
+    top:0;bottom:0; 
+    left:0;right:0; 
+    overflow: hidden;
+}
+
+
+
+
+/* choices are overlaid */
+.passageVideo {
+    width: 100%; 
+    max-height: 100%;
+}
+
+
+#choicesContainer {
+    font-size:30px;
+    width: 100%; 
+    height: 160px;
+    position: absolute;
+    margin: auto;
+    bottom:0; 
+    left:0;right:0; 
+    vertical-align: middle;
+    z-index:2147483647 !important;
+}
+
+#choicesContainer {
+    position: absolute;
+    bottom: -160px;
+    -webkit-animation: slide 0.5s forwards;
+    animation: slide 0.5s forwards;
+}
+
+
+@-webkit-keyframes slide {
+    100% { bottom: 0; }
+}
+
+@keyframes slide {
+    100% { bottom: 0; }
+}
+
+
+
+/* optional, different layouts for different number of choices
+.choicesContainer.layout1 {
+}
+
+.choicesContainer.layout2 {
+}
+*/
+
+/* classes for table layout */
+.tableChoices { 
+
+width: 100%;
+height: 150px; /* must be specified in pixels because CSS in 2020 still sucks*/
+table-layout:fixed;
+border-collapse:collapse;
+border-spacing: 0px;
+border: 0;
+}
+
+.tableChoice, .tableChoices tbody, .tableChoices tr {
+    border: none;
+    border-spacing: 0px;
+}
+
+
+#barBackground {
+    display: block;
+    width: 100%;
+    height: 10px;
+}
+
+#bar {
+    display: block;
+    height: 100%;
+    width: 10px;
+    margin: auto;
+}
+
+.passageLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+
+
+/* for placeholder text */
+#passage {
+}
+
+#passage a {
+    color: #999999;
+}
+
+
+/* for placeholder text */
+.passageBody {
+}
+
+
+/* classes for div layout
+
+.choice {
+    
+    display: inline-block;
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+
+.choice.layout1 {
+    width: 100%;
+}
+.choice.layout2 {
+    width: 50%; 
+}
+
+*/
+
+/***** CONTROLS ****/
+
+#menuContainer {
+    width: 100%; 
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    bottom:0; 
+    left:0;right:0; 
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+    z-index:1 !important;
+    user-select: none
+}
+
+.button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+
+#play {
+    background-image: url(icons/play.svg);
+}
+
+#pause {
+    background-image: url(icons/pause.svg);
+}
+
+#next {
+    background-image: url(icons/next.svg);
+}
+
+#previous {
+    background-image: url(icons/previous.svg);
+}
+
+#ffd10 {
+    background-image: url(icons/ffd10.svg);
+}
+
+#rewind10 {
+    background-image: url(icons/rewind10.svg);
+}
+
+#fullscreen {
+    background-image: url(icons/fullscreen.svg);
+    float: right;
+    margin-right: 20px;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+  }
+
+

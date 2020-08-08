@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>TweeVee</title>
+
+    <!-- SEO / social media-->
+    <meta name="author" content="Molleindustria" />
+    <meta name="copyright" content="MIT License" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="A lightweight HTML5+javascript engine for interactive videos" />
+    <meta name="keywords" content="Twine, games, interactive movies" />
+
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="TweeVee" />
+    <meta property="og:description" content="A lightweight HTML5+javascript engine for interactive videos" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@molleindustria" />
+    <meta name="twitter:title" content="TweeVee" />
+    <meta name="twitter:description" content="A lightweight HTML5+javascript engine for interactive videos" />
+    <meta name="twitter:image" content="" />
+    
+    <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="icons/favicon-180x180.png" sizes="180x180">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="engine.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+    
+
+    $( document ).ready(function() {
+        
+        initGame();
+
+    });
+        
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        
+        <div id="videos">
+        </div>
+        
+        <div id="menuContainer">
+            <div id="play" class="button"></div>
+            <div id="pause" class="button"></div>
+            <div id="rewind10" class="button"></div>
+            <div id="ffd10" class="button"></div>
+            <div id="previous" class="button"></div>
+            <div id="next" class="button"></div>
+        </div>
+
+        <div id="choicesContainer">
+            <div id="barBackground">
+                <div id="bar">
+                </div>    
+            </div>
+
+            <div id="choices">
+            </div> 
+            
+        </div>
+        <div id="passage">
+        </div>
+    
+    </div>
+    
+</body>
+
+</html>

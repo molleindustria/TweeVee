@@ -1,0 +1,57 @@
+﻿:: Start
+Quentin Tarantino is ready to die
+{Execution.mp4|38}
+[[The Governor Calls|Governor]]
+[[Gag phone call|Telemarketing]]
+[[Execute!|Electrocuted]]
+
+
+:: Telemarketing
+lol it's not the governor. Bzzz
+{Telemarketing.mp4}
+[[TooLate]]
+
+
+:: Governor
+It's the governor
+{Governor.mp4|15}
+[[Accidental execution|Accident]]
+[[Happy ending|Canceled]]
+
+
+:: Accident
+hang up on the switch
+{Accident.mp4}
+[[TooLate]]
+
+
+:: Canceled
+Get him out of there
+{Canceled.mp4}
+[[HappyEnding]]
+
+
+:: Electrocuted
+Long scene
+{Electrocuted.mp4}
+[[TheEnd]]
+
+
+:: HappyEnding
+Jenn and Quentin reunited
+{HappyEnding.mp4}
+[[TheEnd]]
+
+
+:: TooLate
+Jenn arrived to late, Quentin is fried
+{TooLate.mp4}
+[[TheEnd]]
+
+
+:: TheEnd
+THE END
+This is what happens if no video is associated. Just a barebone Twine passage to be used as placeholder text.
+[[Restart|Start]]
+
+
